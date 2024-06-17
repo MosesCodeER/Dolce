@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Cheesecake - Dolce Sweets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Dolce Sweets</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-detail">
+            <img src="cheesecake1.jpg" alt="Classic Cheesecake">
+            <h1>Classic Cheesecake</h1>
+            <p>Description of the Classic Cheesecake.</p>
+            <p>Price: $10.00</p>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" value="1" min="1">
+            <button onclick="addToCart('Classic Cheesecake', 10)">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dolce Sweets. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
